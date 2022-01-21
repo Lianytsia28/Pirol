@@ -1,0 +1,168 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+.slider {
+    width: 90%;
+    margin: 0 auto;
+    /* padding: 75px 0; */
+    position: relative;
+}
+.slick-slide {
+    margin: 0px 5px;
+}
+.slick-slide img {
+    width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: 1;
+}
+.slick-current {
+    opacity: 1;
+}
+
+.slick_page{
+    width: 100%;
+    background:  #d8d8d8;
+    /* top: 0; */
+    /* height: 600px; */
+}
+
+.slick_container{
+    position:relative;
+    margin:0 auto;
+    /* top:0px; */
+    /* left:0px; */
+    width:1300px;
+    height:100vh;
+    background-size: cover;
+    overflow:hidden;
+    visibility:hidden;
+}
+.slick_1{
+    position:relative;
+    top:0px;
+    left:0px;
+    background-color:rgba(0,0,0,0.7);
+}
+.slick_2{
+    filter: alpha(opacity=70); 
+    opacity: 0.7; 
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 100%; 
+    height: 100%;
+}
+.slick_3{
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+.slides{
+    cursor:default;
+    position:relative;
+    top:0px;
+    left:0px;
+    width:1300px;
+    height:650px;
+    overflow:hidden;
+    /* background: turquoise; */
+}
+.slick_txt-1{
+    position:absolute;
+    top:35%;
+    width:100%;
+    z-index:0;
+    font-size:32px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 550;
+    color:#ffffff;
+    background: rgba(0, 0, 0, 0.5);
+}
+.slick_txt-2{
+    position:absolute;
+    top:52%;
+    width:100%;
+    text-align: center;
+    z-index:0;
+    font-size:28px;
+    color:#ffffff;
+    background: rgba(0, 0, 0, 0.5);
+    line-height:38px;
+}
+.jssorb05{
+    bottom:60px;
+    right:16px;
+}
+.slick_4{
+    width:16px;
+    height:16px;
+}
+.jssora22l{
+    top:0px;
+    left:100px;
+    width:40px;
+    height:58px;
+}
+.jssora22r{
+    top:0px;
+    right:100px;
+    width:40px;
+    height:58px;
+}
+.jssorb05 {
+    position: absolute;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    /* position: absolute; */
+    /* size of bullet elment */
+    width: 16px;
+    height: 16px;
+    background: url('../img/b05.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb05 div { background-position: -7px -7px; }
+            .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+            .jssorb05 .av { background-position: -67px -7px; }
+            .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+            .jssora22l, .jssora22r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 40px;
+                height: 58px;
+                cursor: pointer;
+                background: url('../img/a22.png') center center no-repeat;
+                overflow: hidden;
+            }
+            .jssora22l { background-position: -10px -31px; }
+            .jssora22r { background-position: -70px -31px; }
+            .jssora22l:hover { background-position: -130px -31px; }
+            .jssora22r:hover { background-position: -190px -31px; }
+            .jssora22l.jssora22ldn { background-position: -250px -31px; }
+            .jssora22r.jssora22rdn { background-position: -310px -31px; }
+            .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+            .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+
+
+            
